@@ -1,0 +1,147 @@
+p {
+    font-size: 18px;
+}
+
+body {
+    background: #474747;
+}
+
+.banner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    position: relative;
+    top: 5em;
+    margin-right: calc(-1 * var(--bs-gutter-x)) !important;
+    margin-left: calc(-1 * var(--bs-gutter-x)) !important;
+    z-index: 2;
+}
+
+.banner img {
+    flex-shrink: 0;
+    min-width: 100%;
+    min-height: 100%;
+
+}
+
+.contentarea {
+    background-color: white;
+    background-image: url("https://vrcdn.electionsfl.org/portals/flagler/FLAENR/wf_background_photo_xledit.jpg");
+    background-position: 51% 5%;
+    background-size: cover;
+    position: relative;
+    z-index: 1;
+}
+
+.Actionbuttons {
+    margin-top: 5%;
+}
+
+.Flabutton {
+    background-color: #0B1A55;
+    outline: 5px solid #00aeef;
+    font-size: 1.5em;
+    color: white;
+    display: block;
+    margin: 35px;
+    padding: 25px;
+    border-radius: 40px;
+    text-align: center;
+    text-decoration: none;
+    line-height: 1.3em;
+
+}
+
+.Flabutton:hover {
+    background-color: #25408f;
+}
+
+
+.ENRFlaButton {
+    font-size: 1.8em;
+    font-weight: bold;
+}
+
+.message {
+    background: #d2232a;
+    color: white;
+    padding: 25px 35px;
+    font-size: 1.2em;
+}
+
+.translator {
+    text-align: center;
+    margin-top: 35px;
+}
+
+.VIpgJd-ZVi9od-l4eHX-hSRGPd,
+.goog-te-gadget {
+    color: white !important;
+}
+
+.footer {
+    background: #474747;
+    color: white;
+    padding: 25px 0;
+}
+
+.footer p {
+    font-size: 1em;
+}
+
+.footer a {
+    color: #7edbfe;
+}
+
+.footersection {
+    font-size: 1.3em;
+}
+
+@media(max-width: 1400px) {
+    .banner {
+        top: 4.2em;
+    }
+}
+
+@media(max-width: 992px) {
+    .banner {
+        top: 3em;
+    }
+
+    .contentarea {
+        background-position: 12% 0%;
+        background-size: cover;
+
+    }
+}
+
+
+@media(max-width: 767px) {
+    .banner {
+        top: 2.45em;
+    }
+
+    .contentarea {
+        background-position: 51% 0%;
+    }
+
+    .Flabutton {
+        font-size: 1.2em;
+    }
+
+    .translator {
+        text-align: center;
+    }
+
+    .footersection {
+        margin-top: 30px;
+    }
+}
+
+@media(max-width: 500px) {
+
+    .contentarea {
+        background-position: 45% 0%;
+    }
+}
