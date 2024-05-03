@@ -3,7 +3,8 @@ p {
 }
 
 body {
-    background: #474747;
+    background: #2c3381;
+    text-align: center;
 }
 
 .banner {
@@ -24,11 +25,9 @@ body {
     min-height: 100%;
 
 }
-/* This is the background img change url to change the img */
-/* Old img url: https://vrcdn.electionsfl.org/portals/flagler/FLAENR/wf_background_photo_xledit.jpg*/
+
 .contentarea {
-    background-color: white;
-    background-image: url("https://i.pinimg.com/736x/c0/04/65/c00465ca26849bff20fdb579d1f916e1.jpg");
+    background-color: #2c3381;
     background-position: 51% 5%;
     background-size: cover;
     position: relative;
@@ -40,35 +39,59 @@ body {
 }
 
 .Flabutton {
-    background-color: #0B1A55;
-    outline: 5px solid #00aeef;
-    font-size: 1.5em;
+    font-size: 2em;
     color: white;
-    display: block;
-    margin: 35px;
-    padding: 25px;
-    border-radius: 40px;
+    display: inline-block;
+    border-top: 3px solid #789fc3;
+    border-bottom: 3px solid #789fc3;
+    padding: 10px 20px;
+    border-color: #789fc3;
     text-align: center;
     text-decoration: none;
+    display: inline-block;
+    transition: border-color 0.3s;
     line-height: 1.3em;
-
+    
+    margin-bottom: 35px;
+    max-width: 300px;
+    width: 100%;
 }
+
+.Flabutton:not(:last-child) {
+    margin-bottom: 0px;
+}
+
+.Flabutton:not(:first-child) {
+    margin-top: 0px;
+}
+
+.container {
+    background-color: #2c3381;
+    margin-top: 40px;
+    margin-bottom: 35px;
+}
+
+
+/*
+.button {
+    background-color: #2c3381;
+    color: white;
+    border-top: 3px solid #789fc3;
+    border-bottom: 3px solid #789fc3;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    transition: border-color 0.3s;
+}
+
+.button:hover {
+    border-color: white;
+}
+*/
 
 .Flabutton:hover {
-    background-color: #25408f;
-}
-
-
-.ENRFlaButton {
-    font-size: 1.8em;
-    font-weight: bold;
-}
-
-.message {
-    background: #d2232a;
-    color: white;
-    padding: 25px 35px;
-    font-size: 1.2em;
+    border-color: #ffffff;
 }
 
 .translator {
