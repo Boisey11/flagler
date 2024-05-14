@@ -7,13 +7,18 @@ body {
     text-align: center;
 }
 
+body, html {
+    margin: 0;
+    padding: 0;
+}
+
 .banner {
     display: flex;
     justify-content: center;
     align-items: center;
     overflow: hidden;
     position: relative;
-    top: 5em;
+    top: 0px;
     margin-right: calc(-1 * var(--bs-gutter-x)) !important;
     margin-left: calc(-1 * var(--bs-gutter-x)) !important;
     z-index: 2;
