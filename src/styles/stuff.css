@@ -2,25 +2,162 @@ p{
     font-size: 12pt;
 }
 
+.banner {
+    background-color: #d8eaf6;
+    margin-bottom: 30px;
+    
+}
+
 body {
     font-family: 'Raleway', sans-serif;
     font-weight: 500;
     text-align: center;
-    font-size: 2.1 em;
+    font-size: 2.1em;
     color: #474747;
+}
 
+.container {
+    background-color:#2c3381;
+    width: 100%;
+    text-align: center !important;
 }
 
 .footer{
     background-color: #474747;
+    color: #bebdbd;
+    padding: 40px 0;
 }
 
 .footer p{
     font-size: 1em;
     font-family: Raleway;
-    color: #bebdbd;
 }
 
 .footer strong, b {
     text-transform: uppercase;
+}
+
+.footersection {
+    font-size: 1em;
+}
+
+.Flabutton {
+    background-color: #2c3381;
+    color: white;
+    padding: 10px 20px;
+    font-size: 2em;
+    display: inline-block;
+    border-top: 3px solid #789fc3;
+    border-bottom: 3px solid #789fc3;
+    border-color: #789fc3;
+    text-decoration: none;
+    transition: border-color 0.3s;
+    line-height: 1.3em;
+    margin-bottom: 50px;
+    margin-top: 35px;
+    width: 400px;
+}
+
+.Flabutton:hover {
+    border-color: #ffffff;
+}
+
+.translator {
+    text-align: center;
+    margin-top: 5px;
+    margin-bottom: 35px;
+    margin-left: auto;
+    margin-right: auto;
+    background: url('../publc/pictures/wf_language_grey.png') no-repeat center center;
+    
+    background-size: cover;
+}
+
+.VIpgJd-ZVi9od-l4eHX-hSRGPd,
+.goog-te-gadget {
+    color: white !important;
+}
+
+@media(max-width: 1400px) {
+    .banner {
+        top: 4.2em;
+    }
+    .Flabutton {
+        width: 100% !important;
+    }
+}
+
+br {
+    display: none;
+}
+
+@media (min-width: 992px) {
+    br {
+        display: inline;
+    }
+}
+
+@media(max-width: 992px) {
+    .banner {
+        top: 3em;
+    }
+
+    .contentarea {
+        background-position: 12% 0%;
+        background-size: cover;
+
+    }
+    .Flabutton {
+        width: 60% !important;
+    }
+
+    .Flabutton.first-button {
+        margin-top: 0px;
+        margin-bottom: 10px;
+    }
+
+    .Flabutton.middle-button {
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    .Flabutton.last-button {
+        margin-top: 10px;
+    }
+}
+
+@media(max-width: 768px) {
+    .Flabutton {
+        width: 100% !important;
+        
+    }
+
+    .Flabutton.first-button {
+        margin-top: 0px;
+        margin-bottom: 20px;
+    }
+
+    .Flabutton.middle-button {
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    .Flabutton.last-button {
+        margin-top: 20px;
+    }
+
+}
+
+@media(max-width: 500px) {
+    .Flabutton {
+        width: 100% !important;
+    }
+    
+}
+
+@media(max-width: 320px) {
+    .Flabutton {
+        width: 100% !important;
+    }
+    
 }

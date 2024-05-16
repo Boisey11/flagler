@@ -55,7 +55,6 @@ body, html {
     border-color: #789fc3;
     text-align: center;
     text-decoration: none;
-    display: inline-block;
     transition: border-color 0.3s;
     line-height: 1.3em;
     
