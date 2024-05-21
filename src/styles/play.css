@@ -25,6 +25,7 @@ body {
     background-color: #474747;
     color: #bebdbd;
     padding: 20px 0;
+    margin-right: 0px !important;
     text-align: center;
 }
 
@@ -75,7 +76,7 @@ body {
 
 @media(max-width: 1400px) {
     .banner {
-        top: 4.2em;
+        top: 0em;
     }
     .Flabutton {
         width: 100% !important;
@@ -94,7 +95,7 @@ br {
 
 @media(max-width: 992px) {
     .banner {
-        top: 3em;
+        top: 0em;
     }
 
     .contentarea {
@@ -195,13 +196,15 @@ br {
   
     @media (max-width: 991px) {
       grid-template-columns: 1fr;
-      /*
       border-left: 1px solid var(--brand-color1);
-      */
     }
   }
   
   .mobilebuttons {
+
+    background-color: transparent;
+    border: none;
+
     display: grid;
     justify-content: center;
     padding: 5px 0;
@@ -224,7 +227,8 @@ br {
   }
   
   .utility-dropdown {
-    opacity: 0;
+    /*make sure this goes off screen*/
+    opacity: 1;
     position: absolute;
     top: 0;
     transition: all 500ms ease-in-out;
@@ -241,6 +245,8 @@ br {
     transition: all 500ms ease-in-out;
     box-shadow: var(--box-shadow);
     left: 0;
+    margin-left: -102px;
+    margin-right: 10px;
   
     @media (max-width: 991px) {
       left: 0;
