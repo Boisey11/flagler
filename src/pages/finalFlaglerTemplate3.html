@@ -16,7 +16,7 @@
             new google.translate.TranslateElement({ pageLanguage: 'en' }, 'google_translate_element');
         }
     </script>
-    <link rel="stylesheet" href="../styles/play.css"></link>
+    <link rel="stylesheet" href="../styles/finalFlaglerTemplate3.css"></link>
 </head>
 
 <body>
@@ -28,67 +28,67 @@
         </div>
         <div class="contentarea row">
             
-            <div class="Actionbuttons col-lg-5 col-md-7 col-12">
+            <div class="Actionbuttons col-lg-5 col-md-7 col-sm-6 col-xs-12">
                 <div class="translate" id="google_translate_element"></div>
 
                 <a class="Flabutton" href="https://enr.electionsfl.org/FLA/3528/Summary/"
-                    target="_blank">My Voter Info Lookup</a>
+                    target="_blank">Voter Lookup</a>
    
-                <a class="Flabutton" href="https://www.voterfocus.com/VoterInformationLookup/voterSearch?county=fla"
-                    target="_blank">Mail Ballot Tracking</a>
+                <a class="Flabutton" href="https://enr.electionsfl.org/FLA/3528/Summary/"
+                    target="_blank">Election Night Reporting</a>
            
                 <a class="Flabutton" href="https://tqv.vrswebapps.com/?state=FL&county=fla&election=169"
                     target="_blank">Live Election Turnout</a>
            
             </div>
 
-            <div class="flag_pic col-lg-7 col-md-5 col-12">
+            <div class="flag_pic col-lg-7 col-md-5 col-sm-6 col-xs-12">
                 <div class="image-container">
                     <div class="fade-gradient"></div>
-                    <img class="flag_pic" src="/public/pictures/wf_flag_xs.png"  style="max-width: 100%; height: 100%;">
+                    <picture>
+                        <source media="(max-width: 500px)" srcset="/public/pictures/wf_flag_xs.png">
+                        <img class="flag_pic" src="/public/pictures/wf_flag_xxl.png"  style="max-width: 100%; height: 100%;">
+                        <!-- <img class="d-sm-none flag_pic" src="/public/pictures/wf_flag_xs.png"  style="max-width: 100%; height: 100%;"> -->
+                    </picture>
                 </div>
             </div>
             
 
         <div class="footer row">
             <div class="col-md-3 col-sm-6 col-xs-12">
-                <div class="footersection">Office Address</div>
+                <div class="footersection"><b>Office Address</b></div>
 
                 <!-- Name of Gov Building Message -->
                 <p>Flagler County Supervisor of Elections<br>
-                    Office Located in the Government Services Building</p>
+                    Government Services Building</p>
                 <!-- Address of Gov Building -->
-                <p>1769 E. Moody Boulevard, Building 2,<br>
-                    Suite 101<br>
+                <p>1769 E. Moody Boulevard<br>
+                    Building 2, Suite 101<br>
                     Bunnell, FL 32110</p>
             </div>
             <div class="col-md-3 col-sm-6 col-xs-12">
-                <div class="footersection">Office Hours</div>
+                <div class="footersection"><b>Office Hours</b></div>
 
                 <!-- Office Hour Information -->
-                <p>Monday - Friday: 8:30 a.m. to 4:30 p.m.<br>
+                <p>Monday - Friday:<br>
+                    8:30 a.m. to 4:30 p.m.<br>
                     Closed on legal holidays.</p>
             </div>
             <div class="col-md-3 col-sm-6 col-xs-12">
-                <div class="footersection">Mailing Address</div>
+                <div class="footersection"><b>Mailing Address</b></div>
 
                 <!-- Address of County Supervisor of Elections -->
-                <p>Flagler County Supervisor of Elections<br>
+                <p>Flagler County<br>
+                    Supervisor of Elections<br>
                     P.O. Box 901<br>
                     Bunnell, FL 32110</p>
             </div>
             <div class="col-md-3 col-sm-6 col-xs-12">
-                <div class="footersection">Contact Info</div>
+                <div class="footersection"><b>Contact Info</b></div>
                 <!-- Phone Contact -->
                 <p>Phone: (386) 313-4170</p>
-                <!-- Spanish Hotline -->
-                <p>Toll-Free Spanish Hotline / Linea <br>
-                    telefonica gratuita en espanol:<br>
-                    (800) 899-7962</p>
-                <!-- Fax, Email, ___ -->
-                <p>Fax: (386) 313-4171<br>
-                    TTY: (386) 313-4729<br>
-                    Email form: <a href="https://www.flaglerelections.gov/Contact" target="_blanK">Contact Us</a></p>
+                <!-- Fax -->
+                <p>Fax: (386) 313-4171</p>
             </div>
         </div>
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
