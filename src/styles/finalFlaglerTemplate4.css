@@ -98,7 +98,7 @@ body {
 
 }
 
-.footersection strong, b {
+.default-footer strong, b {
     text-transform: uppercase;
 }
 
@@ -151,7 +151,7 @@ body {
 
 @media (max-width: 576px) {
 
-    .footersection {
+    .default-footer {
         display: none;
     }
 
