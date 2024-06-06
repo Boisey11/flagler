@@ -1,0 +1,158 @@
+
+.container {
+    padding: 2%; /*change to get rid of the padding at the top and sides*/
+}
+
+body {
+    background-color: #474747;
+}
+
+.contentarea {
+    margin: 0;
+    padding: 0;
+    background-size: cover;
+    background-repeat: no-repeat;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    background-image: url('/public/pictures/wf_background_xxl.jpg');
+    height: 500px;
+    background-position: bottom;
+}
+
+.translate {
+    display: flex;
+    justify-content: center; /* Centers the element horizontally */
+    align-items: center;     /* Centers the element vertically */
+    height: 100%;
+}
+
+.goog-te-combo {
+    width: 300px;
+    text-align: center;
+}
+
+.VIpgJd-ZVi9od-l4eHX-hSRGPd,
+.goog-te-gadget {
+    color: black;
+    text-align: center;
+}
+
+.btn-primary {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100px;
+    line-height: 1.2;
+    color: #D7EAF5;
+    background-color: #2c3381;
+    font-family: 'Sofia Sans Condensed';
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 50%;
+    transition: all 0.3s ease;
+}
+
+.btn-primary:hover {
+    background-color: #181e60;
+}
+
+.contentarea_container {
+    height: 25%;
+}
+
+.contentarea {
+    background-color: white;
+    padding: 20px;
+}
+
+.footer {
+    color: #bebdbd;
+    font-family: 'Sofia Sans Condensed';
+    font-weight: 500;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.footersection {
+    font-size: 14pt;
+    text-transform: uppercase;
+}
+
+.footer p {
+    font-size: 1em;
+}
+
+@media (max-width: 1400px) {
+    .contentarea {
+        background-image: url('/public/pictures/wf_background_xxl.jpg');
+        background-position: bottom;
+    }
+
+    .container {
+        max-width: 95%;
+    }
+}
+
+@media (max-width: 1200px) {
+    .container {
+        max-width: 90%;
+    }
+
+    .goog-te-combo {
+        width: 250px;
+    }
+}
+
+@media (max-width: 992px) {
+    .container {
+        max-width: 98%;
+    }
+
+    .goog-te-combo {
+        width: 200px;
+    }
+}
+
+@media (max-width: 768px) {
+    .btn-primary {
+        margin: 0;
+    }
+
+    .container {
+    padding: 0%;
+    max-width: 100%;
+    }
+
+    .row{
+        margin: 0;
+        justify-content: center;
+    }
+
+    .row>* {
+        padding: 0;
+    }
+
+    .goog-te-combo {
+        width: 250px;
+    }
+}
+
+@media (max-width: 576px) {
+    .contentarea {
+        background-image: url('/public/pictures/wf_background_xs.jpg');
+        background-position: bottom;
+    }
+    .btn-primary {
+        padding: 0;
+        margin: 0;
+    }
+    .container {
+        padding: 0%;
+        max-width: 100%;
+    }
+
+    .goog-te-combo {
+        width: 300px;
+    }
+}
