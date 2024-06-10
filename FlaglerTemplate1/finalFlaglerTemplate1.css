@@ -15,7 +15,7 @@ body {
     flex: 1;
     display: flex;
     flex-direction: column;
-    background-image: url('/public/pictures/wf_background_xxl.jpg');
+    background-image: url('https://vrcdn.electionsfl.org/common/static+sites/images/wf_background_xxl.jpg');
     height: 500px;
     background-position: bottom;
 }
